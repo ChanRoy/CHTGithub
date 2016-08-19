@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1188FA1D6405D40019A488 /* CHTFilterItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */; };
+		AE1188FD1D640A180019A488 /* CHTLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1188FC1D640A180019A488 /* CHTLayoutButton.m */; };
+		AE1188FF1D640FAC0019A488 /* cht_btn_sl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */; };
+		AE1189011D6411D10019A488 /* cht_btn_no@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1189001D6411D10019A488 /* cht_btn_no@3x.png */; };
+		AE1189041D6442370019A488 /* CHTFilterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1189031D6442370019A488 /* CHTFilterContentView.m */; };
+		AE7D2C921D65B44300609FDF /* CHTFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2C911D65B44300609FDF /* CHTFilterItem.m */; };
+		AEE28D001D3CB6FF00AB8895 /* CHTAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28CFF1D3CB6FF00AB8895 /* CHTAbstractDotView.m */; };
+		AEE28D061D3CB89F00AB8895 /* CHTDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28D051D3CB89F00AB8895 /* CHTDotView.m */; };
+		AEE28D091D3CB9C400AB8895 /* CHTAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28D081D3CB9C400AB8895 /* CHTAnimatedDotView.m */; };
+		AEE28D0C1D3CBEB400AB8895 /* CHTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28D0B1D3CBEB400AB8895 /* CHTPageControl.m */; };
+		AEE31E9D1D38D156008F4CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE31E9C1D38D156008F4CDE /* main.m */; };
+		AEE31EA01D38D156008F4CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE31E9F1D38D156008F4CDE /* AppDelegate.m */; };
+		AEE31EA31D38D156008F4CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE31EA21D38D156008F4CDE /* ViewController.m */; };
+		AEE31EA61D38D156008F4CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA41D38D156008F4CDE /* Main.storyboard */; };
+		AEE31EA81D38D156008F4CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA71D38D156008F4CDE /* Assets.xcassets */; };
+		AEE31EAB1D38D156008F4CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA91D38D156008F4CDE /* LaunchScreen.storyboard */; };
+		D39472811F468DCB10DBD84D /* libPods-CHTGithub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHTGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1188F81D6405D40019A488 /* CHTFilterItemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterItemBar.h; sourceTree = "<group>"; };
+		AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterItemBar.m; sourceTree = "<group>"; };
+		AE1188FB1D640A180019A488 /* CHTLayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTLayoutButton.h; sourceTree = "<group>"; };
+		AE1188FC1D640A180019A488 /* CHTLayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTLayoutButton.m; sourceTree = "<group>"; };
+		AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cht_btn_sl@3x.png"; path = "PageControl/cht_btn_sl@3x.png"; sourceTree = "<group>"; };
+		AE1189001D6411D10019A488 /* cht_btn_no@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cht_btn_no@3x.png"; sourceTree = "<group>"; };
+		AE1189021D6442370019A488 /* CHTFilterContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterContentView.h; sourceTree = "<group>"; };
+		AE1189031D6442370019A488 /* CHTFilterContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterContentView.m; sourceTree = "<group>"; };
+		AE7D2C8F1D6558E100609FDF /* CHTFilterConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHTFilterConst.h; sourceTree = "<group>"; };
+		AE7D2C901D65B44300609FDF /* CHTFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterItem.h; sourceTree = "<group>"; };
+		AE7D2C911D65B44300609FDF /* CHTFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterItem.m; sourceTree = "<group>"; };
+		AEA0A83D1D421EDF0099BC1A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AEA0A83E1D421EDF0099BC1A /* QFHKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHKDefines.h; sourceTree = "<group>"; };
+		AEA0A83F1D421EDF0099BC1A /* QFHKEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHKEnumType.h; sourceTree = "<group>"; };
+		AEE28CFE1D3CB6FF00AB8895 /* CHTAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTAbstractDotView.h; sourceTree = "<group>"; };
+		AEE28CFF1D3CB6FF00AB8895 /* CHTAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTAbstractDotView.m; sourceTree = "<group>"; };
+		AEE28D041D3CB89F00AB8895 /* CHTDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTDotView.h; sourceTree = "<group>"; };
+		AEE28D051D3CB89F00AB8895 /* CHTDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTDotView.m; sourceTree = "<group>"; };
+		AEE28D071D3CB9C400AB8895 /* CHTAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTAnimatedDotView.h; sourceTree = "<group>"; };
+		AEE28D081D3CB9C400AB8895 /* CHTAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTAnimatedDotView.m; sourceTree = "<group>"; };
+		AEE28D0A1D3CBEB400AB8895 /* CHTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTPageControl.h; sourceTree = "<group>"; };
+		AEE28D0B1D3CBEB400AB8895 /* CHTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTPageControl.m; sourceTree = "<group>"; };
+		AEE31E981D38D156008F4CDE /* CHTGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE31E9C1D38D156008F4CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEE31E9E1D38D156008F4CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEE31E9F1D38D156008F4CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEE31EA11D38D156008F4CDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEE31EA21D38D156008F4CDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEE31EA51D38D156008F4CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEE31EA71D38D156008F4CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEE31EAA1D38D156008F4CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEE31EAC1D38D156008F4CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE31E951D38D156008F4CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39472811F468DCB10DBD84D /* libPods-CHTGithub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167DD3A43D15A175B59487B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */,
+				F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE1188F71D6405920019A488 /* CHTFilterItemBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE1189051D6443DC0019A488 /* Resource */,
+				AE1188F81D6405D40019A488 /* CHTFilterItemBar.h */,
+				AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */,
+				AE1188FB1D640A180019A488 /* CHTLayoutButton.h */,
+				AE1188FC1D640A180019A488 /* CHTLayoutButton.m */,
+				AE1189021D6442370019A488 /* CHTFilterContentView.h */,
+				AE1189031D6442370019A488 /* CHTFilterContentView.m */,
+				AE7D2C901D65B44300609FDF /* CHTFilterItem.h */,
+				AE7D2C911D65B44300609FDF /* CHTFilterItem.m */,
+				AE7D2C8F1D6558E100609FDF /* CHTFilterConst.h */,
+			);
+			name = CHTFilterItemBar;
+			sourceTree = "<group>";
+		};
+		AE1189051D6443DC0019A488 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */,
+				AE1189001D6411D10019A488 /* cht_btn_no@3x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		AEE28CFD1D3CB6CC00AB8895 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AEE28CFE1D3CB6FF00AB8895 /* CHTAbstractDotView.h */,
+				AEE28CFF1D3CB6FF00AB8895 /* CHTAbstractDotView.m */,
+				AEE28D041D3CB89F00AB8895 /* CHTDotView.h */,
+				AEE28D051D3CB89F00AB8895 /* CHTDotView.m */,
+				AEE28D071D3CB9C400AB8895 /* CHTAnimatedDotView.h */,
+				AEE28D081D3CB9C400AB8895 /* CHTAnimatedDotView.m */,
+				AEE28D0A1D3CBEB400AB8895 /* CHTPageControl.h */,
+				AEE28D0B1D3CBEB400AB8895 /* CHTPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		AEE31E8F1D38D155008F4CDE = {
+			isa = PBXGroup;
+			children = (
+				AEE31E9A1D38D156008F4CDE /* CHTGithub */,
+				AEE31E991D38D156008F4CDE /* Products */,
+				167DD3A43D15A175B59487B8 /* Pods */,
+				B71A758C4042C786385D68A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE31E991D38D156008F4CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE31E981D38D156008F4CDE /* CHTGithub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE31E9A1D38D156008F4CDE /* CHTGithub */ = {
+			isa = PBXGroup;
+			children = (
+				AE1188F71D6405920019A488 /* CHTFilterItemBar */,
+				AEA0A83D1D421EDF0099BC1A /* PrefixHeader.pch */,
+				AEA0A83E1D421EDF0099BC1A /* QFHKDefines.h */,
+				AEA0A83F1D421EDF0099BC1A /* QFHKEnumType.h */,
+				AEE28CFD1D3CB6CC00AB8895 /* PageControl */,
+				AEE31E9E1D38D156008F4CDE /* AppDelegate.h */,
+				AEE31E9F1D38D156008F4CDE /* AppDelegate.m */,
+				AEE31EA11D38D156008F4CDE /* ViewController.h */,
+				AEE31EA21D38D156008F4CDE /* ViewController.m */,
+				AEE31EA41D38D156008F4CDE /* Main.storyboard */,
+				AEE31EA71D38D156008F4CDE /* Assets.xcassets */,
+				AEE31EA91D38D156008F4CDE /* LaunchScreen.storyboard */,
+				AEE31EAC1D38D156008F4CDE /* Info.plist */,
+				AEE31E9B1D38D156008F4CDE /* Supporting Files */,
+			);
+			path = CHTGithub;
+			sourceTree = "<group>";
+		};
+		AEE31E9B1D38D156008F4CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE31E9C1D38D156008F4CDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B71A758C4042C786385D68A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE31E971D38D156008F4CDE /* CHTGithub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE31EAF1D38D156008F4CDE /* Build configuration list for PBXNativeTarget "CHTGithub" */;
+			buildPhases = (
+				A57103A32D4B5F5CA4E9B97B /* Check Pods Manifest.lock */,
+				AEE31E941D38D156008F4CDE /* Sources */,
+				AEE31E951D38D156008F4CDE /* Frameworks */,
+				AEE31E961D38D156008F4CDE /* Resources */,
+				FD263E70641F087E11281146 /* Embed Pods Frameworks */,
+				0818E1E0E56CC44D34235169 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTGithub;
+			productName = CHTGithub;
+			productReference = AEE31E981D38D156008F4CDE /* CHTGithub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE31E901D38D156008F4CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cht;
+				TargetAttributes = {
+					AEE31E971D38D156008F4CDE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AEE31E931D38D156008F4CDE /* Build configuration list for PBXProject "CHTGithub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE31E8F1D38D155008F4CDE;
+			productRefGroup = AEE31E991D38D156008F4CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE31E971D38D156008F4CDE /* CHTGithub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE31E961D38D156008F4CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE31EAB1D38D156008F4CDE /* LaunchScreen.storyboard in Resources */,
+				AEE31EA81D38D156008F4CDE /* Assets.xcassets in Resources */,
+				AE1189011D6411D10019A488 /* cht_btn_no@3x.png in Resources */,
+				AE1188FF1D640FAC0019A488 /* cht_btn_sl@3x.png in Resources */,
+				AEE31EA61D38D156008F4CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0818E1E0E56CC44D34235169 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57103A32D4B5F5CA4E9B97B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD263E70641F087E11281146 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE31E941D38D156008F4CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE28D001D3CB6FF00AB8895 /* CHTAbstractDotView.m in Sources */,
+				AEE28D061D3CB89F00AB8895 /* CHTDotView.m in Sources */,
+				AEE28D091D3CB9C400AB8895 /* CHTAnimatedDotView.m in Sources */,
+				AEE31EA31D38D156008F4CDE /* ViewController.m in Sources */,
+				AE1189041D6442370019A488 /* CHTFilterContentView.m in Sources */,
+				AEE28D0C1D3CBEB400AB8895 /* CHTPageControl.m in Sources */,
+				AEE31EA01D38D156008F4CDE /* AppDelegate.m in Sources */,
+				AE1188FD1D640A180019A488 /* CHTLayoutButton.m in Sources */,
+				AE7D2C921D65B44300609FDF /* CHTFilterItem.m in Sources */,
+				AEE31E9D1D38D156008F4CDE /* main.m in Sources */,
+				AE1188FA1D6405D40019A488 /* CHTFilterItemBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEE31EA41D38D156008F4CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE31EA51D38D156008F4CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE31EA91D38D156008F4CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE31EAA1D38D156008F4CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE31EAD1D38D156008F4CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEE31EAE1D38D156008F4CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEE31EB01D38D156008F4CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CHTGithub/PrefixHeader.pch";
+				INFOPLIST_FILE = CHTGithub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEE31EB11D38D156008F4CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CHTGithub/PrefixHeader.pch";
+				INFOPLIST_FILE = CHTGithub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTGithub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE31E931D38D156008F4CDE /* Build configuration list for PBXProject "CHTGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE31EAD1D38D156008F4CDE /* Debug */,
+				AEE31EAE1D38D156008F4CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE31EAF1D38D156008F4CDE /* Build configuration list for PBXNativeTarget "CHTGithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE31EB01D38D156008F4CDE /* Debug */,
+				AEE31EB11D38D156008F4CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE31E901D38D156008F4CDE /* Project object */;
+}

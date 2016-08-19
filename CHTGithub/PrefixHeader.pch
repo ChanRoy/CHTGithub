@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  QFangWangHK
+//
+//  Created by QFWangLP on 2016/1/12.
+//  Copyright © 2016年 qfangwanghk. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//限定仅仅被OC代码使用
+//#ifdef __objc__
+
+/**
+ *  引用全局头文件
+ */
+
+#import "QFHKDefines.h"
+#import "AFNetworking.h"
+
+//#endif
+
+#endif /* PrefixHeader_pch */
