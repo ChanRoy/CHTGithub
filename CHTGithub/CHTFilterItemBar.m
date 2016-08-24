@@ -211,20 +211,6 @@
         
         [self hideContentView];
     }
-    
-    //contentView显示隐藏
-    
-    if (_selectBtn.selected) {
-        
-        CHTFilterType filterType = _filterTypes[_selectIndex].integerValue;
-        
-
-    }else{
-        
-        
-        [self hideContentView];
-    }
-    
 }
 
 - (void)reloadItemBar{

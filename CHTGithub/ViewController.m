@@ -15,14 +15,21 @@
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
+/**
+ *  http://hk.qfang.com/qfang-api/mobile/common/query/querySalePriceCondition
+ *  http://hk.qfang.com/qfang-api/mobile/business/package/getLevelTwoAreaTree
+ *  http://hk.qfang.com/qfang-api/mobile/business/package/queryMergedMoreParam
+ */
 
 @interface ViewController ()<CHTFilterItemBarDelegate>
 
 @property (nonatomic, strong) NSMutableArray *prices;
+@property (nonatomic, strong) NSMutableArray *ages;
 
 @property (nonatomic, strong) CHTFilterItemBar *filterBar;
 
 @end
+
 
 @implementation ViewController{
     
@@ -67,8 +74,30 @@
         
     }];
     
+}
+
+- (void)requestAgeData{
     
-    
+    _ages = [NSMutableArray new];
+    [[AFHTTPSessionManager manager]GET:@"http://hk.qfang.com/qfang-api/mobile/common/query/queryGardenAgeCondition" parameters:nil progress:NULL success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSDictionary *dict = responseObject;
+        if ([dict[@"flag"] isEqualToString:@"1"]) {
+            
+            NSArray *arr = dict[@"data"][@"list"];
+            for (NSDictionary *dic in arr) {
+                
+                CHTFilterItem *item = [[CHTFilterItem alloc]initWithDesc:dic[@"desc"]];
+                [_ages addObject:item];
+                
+            }
+        }
+        [self.filterBar showContentView];
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+        NSLog(@"%@",error.description);
+    }];
 }
 
 #pragma mark - delegate
@@ -79,12 +108,49 @@
 
 - (void)filterItemBar:(CHTFilterItemBar *)filterItemBar didSelectButtonIndex:(NSInteger)buttonIndex{
 
-    [self requestPriceData];
+    switch (buttonIndex) {
+        case 0:{
+            [self requestPriceData];
+        }
+            break;
+        case 1:{
+            [self requestAgeData];
+        }
+            break;
+        case 2:{
+            [self requestPriceData];
+        }
+            break;
+        case 3:{
+            [self requestAgeData];
+        }
+            break;
+        default:
+            break;
+    }
+    
+    
 }
 
 - (NSArray *)dataSourceOfFilterItemBar:(CHTFilterItemBar *)filterItemBar didSelectButtonIndex:(NSInteger)buttonIndex{
     
-    return _prices.copy;
+    switch (buttonIndex) {
+        case 0:
+            return _prices;
+            break;
+        case 1:
+            return _ages;
+            break;
+        case 2:
+            return _prices;
+            break;
+        case 3:
+            return _ages;
+            break;
+        default:
+            break;
+    }
+    return nil;
 }
 
 - (void)filterItemBar:(CHTFilterItemBar *)filterItemBar didSelectFilterItem:(CHTFilterItem *)filterItem{

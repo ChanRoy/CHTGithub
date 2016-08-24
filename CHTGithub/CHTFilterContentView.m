@@ -48,10 +48,31 @@
             [self setupDefaultContentView];
         }
             break;
+        case CHTFilterTypeTwoFloor:{
+            [self setupTwoFloorContentView];
+        }
+            break;
             
         default:
             break;
     }
+}
+
+- (void)setupTwoFloorContentView{
+    
+    _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame) * 1/3, CGRectGetHeight(self.frame) * VIEW_HEIGHT_SCALE) style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.showsVerticalScrollIndicator = NO;
+    _tableView.tableFooterView = [UIView new];
+    [self addSubview:_tableView];
+    
+    _subTableView = [[UITableView alloc]initWithFrame:CGRectMake(CGRectGetMaxX(_tableView.frame), 0, CGRectGetWidth(self.frame) * 2/3, CGRectGetHeight(self.frame) * VIEW_HEIGHT_SCALE) style:UITableViewStylePlain];
+    _subTableView.delegate = self;
+    _subTableView.dataSource = self;
+    _subTableView.showsVerticalScrollIndicator = NO;
+    _subTableView.tableFooterView = [UIView new];
+    [self addSubview:_subTableView];
 }
 
 - (void)setupDefaultContentView{
