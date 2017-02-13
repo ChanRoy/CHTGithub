@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CHTScrollItemBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CHTGithub.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>270C7397A336EBC41AB97BCBDE458E35</key>
+		<key>427E91549F93EA0836D1234BF066CBC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C7A5855A3FBE354B57AF4E148B3D0B9</key>
+		<key>6613C5A03106E730F0BE64C226596ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68F4E5A7B81ECEEA00F942630CA625D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA881E9D9B82396854093DAF9685546A</key>
+		<key>D8B19505C3472428E589A6FAAF5B8DAC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

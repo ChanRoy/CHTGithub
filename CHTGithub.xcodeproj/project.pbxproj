@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE1188FA1D6405D40019A488 /* CHTFilterItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */; };
-		AE1188FD1D640A180019A488 /* CHTLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1188FC1D640A180019A488 /* CHTLayoutButton.m */; };
-		AE1188FF1D640FAC0019A488 /* cht_btn_sl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */; };
-		AE1189011D6411D10019A488 /* cht_btn_no@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1189001D6411D10019A488 /* cht_btn_no@3x.png */; };
-		AE1189041D6442370019A488 /* CHTFilterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1189031D6442370019A488 /* CHTFilterContentView.m */; };
-		AE7D2C921D65B44300609FDF /* CHTFilterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D2C911D65B44300609FDF /* CHTFilterItem.m */; };
+		60FDDCBC725C619A5D6E3CC1 /* libPods-CHTGithub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195FA906F3E11D19C2A6216 /* libPods-CHTGithub.a */; };
+		AE77076D1E0BA9D10001E9D7 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = AE77076C1E0BA9D10001E9D7 /* lena.png */; };
 		AEE28D001D3CB6FF00AB8895 /* CHTAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28CFF1D3CB6FF00AB8895 /* CHTAbstractDotView.m */; };
 		AEE28D061D3CB89F00AB8895 /* CHTDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28D051D3CB89F00AB8895 /* CHTDotView.m */; };
 		AEE28D091D3CB9C400AB8895 /* CHTAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE28D081D3CB9C400AB8895 /* CHTAnimatedDotView.m */; };
@@ -23,22 +19,11 @@
 		AEE31EA61D38D156008F4CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA41D38D156008F4CDE /* Main.storyboard */; };
 		AEE31EA81D38D156008F4CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA71D38D156008F4CDE /* Assets.xcassets */; };
 		AEE31EAB1D38D156008F4CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE31EA91D38D156008F4CDE /* LaunchScreen.storyboard */; };
-		D39472811F468DCB10DBD84D /* libPods-CHTGithub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHTGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE1188F81D6405D40019A488 /* CHTFilterItemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterItemBar.h; sourceTree = "<group>"; };
-		AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterItemBar.m; sourceTree = "<group>"; };
-		AE1188FB1D640A180019A488 /* CHTLayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTLayoutButton.h; sourceTree = "<group>"; };
-		AE1188FC1D640A180019A488 /* CHTLayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTLayoutButton.m; sourceTree = "<group>"; };
-		AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cht_btn_sl@3x.png"; path = "PageControl/cht_btn_sl@3x.png"; sourceTree = "<group>"; };
-		AE1189001D6411D10019A488 /* cht_btn_no@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cht_btn_no@3x.png"; sourceTree = "<group>"; };
-		AE1189021D6442370019A488 /* CHTFilterContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterContentView.h; sourceTree = "<group>"; };
-		AE1189031D6442370019A488 /* CHTFilterContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterContentView.m; sourceTree = "<group>"; };
-		AE7D2C8F1D6558E100609FDF /* CHTFilterConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHTFilterConst.h; sourceTree = "<group>"; };
-		AE7D2C901D65B44300609FDF /* CHTFilterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTFilterItem.h; sourceTree = "<group>"; };
-		AE7D2C911D65B44300609FDF /* CHTFilterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTFilterItem.m; sourceTree = "<group>"; };
+		7195FA906F3E11D19C2A6216 /* libPods-CHTGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHTGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE77076C1E0BA9D10001E9D7 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
 		AEA0A83D1D421EDF0099BC1A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AEA0A83E1D421EDF0099BC1A /* QFHKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHKDefines.h; sourceTree = "<group>"; };
 		AEA0A83F1D421EDF0099BC1A /* QFHKEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFHKEnumType.h; sourceTree = "<group>"; };
@@ -60,8 +45,8 @@
 		AEE31EA71D38D156008F4CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE31EAA1D38D156008F4CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE31EAC1D38D156008F4CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.debug.xcconfig"; sourceTree = "<group>"; };
-		F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.release.xcconfig"; sourceTree = "<group>"; };
+		BF9DC5866A6BFF481418E81D /* Pods-CHTGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.debug.xcconfig"; sourceTree = "<group>"; };
+		C3957CD5E31399B45C4914EE /* Pods-CHTGithub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHTGithub.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,46 +54,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39472811F468DCB10DBD84D /* libPods-CHTGithub.a in Frameworks */,
+				60FDDCBC725C619A5D6E3CC1 /* libPods-CHTGithub.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		167DD3A43D15A175B59487B8 /* Pods */ = {
+		5C741EF8354FF2B6DCDB6909 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */,
-				F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */,
+				7195FA906F3E11D19C2A6216 /* libPods-CHTGithub.a */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AE1188F71D6405920019A488 /* CHTFilterItemBar */ = {
-			isa = PBXGroup;
-			children = (
-				AE1189051D6443DC0019A488 /* Resource */,
-				AE1188F81D6405D40019A488 /* CHTFilterItemBar.h */,
-				AE1188F91D6405D40019A488 /* CHTFilterItemBar.m */,
-				AE1188FB1D640A180019A488 /* CHTLayoutButton.h */,
-				AE1188FC1D640A180019A488 /* CHTLayoutButton.m */,
-				AE1189021D6442370019A488 /* CHTFilterContentView.h */,
-				AE1189031D6442370019A488 /* CHTFilterContentView.m */,
-				AE7D2C901D65B44300609FDF /* CHTFilterItem.h */,
-				AE7D2C911D65B44300609FDF /* CHTFilterItem.m */,
-				AE7D2C8F1D6558E100609FDF /* CHTFilterConst.h */,
-			);
-			name = CHTFilterItemBar;
-			sourceTree = "<group>";
-		};
-		AE1189051D6443DC0019A488 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				AE1188FE1D640FAC0019A488 /* cht_btn_sl@3x.png */,
-				AE1189001D6411D10019A488 /* cht_btn_no@3x.png */,
-			);
-			name = Resource;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AEE28CFD1D3CB6CC00AB8895 /* PageControl */ = {
@@ -131,8 +89,8 @@
 			children = (
 				AEE31E9A1D38D156008F4CDE /* CHTGithub */,
 				AEE31E991D38D156008F4CDE /* Products */,
-				167DD3A43D15A175B59487B8 /* Pods */,
-				B71A758C4042C786385D68A8 /* Frameworks */,
+				E50AC2A140B4179461B017E7 /* Pods */,
+				5C741EF8354FF2B6DCDB6909 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,10 +105,10 @@
 		AEE31E9A1D38D156008F4CDE /* CHTGithub */ = {
 			isa = PBXGroup;
 			children = (
-				AE1188F71D6405920019A488 /* CHTFilterItemBar */,
 				AEA0A83D1D421EDF0099BC1A /* PrefixHeader.pch */,
 				AEA0A83E1D421EDF0099BC1A /* QFHKDefines.h */,
 				AEA0A83F1D421EDF0099BC1A /* QFHKEnumType.h */,
+				AE77076C1E0BA9D10001E9D7 /* lena.png */,
 				AEE28CFD1D3CB6CC00AB8895 /* PageControl */,
 				AEE31E9E1D38D156008F4CDE /* AppDelegate.h */,
 				AEE31E9F1D38D156008F4CDE /* AppDelegate.m */,
@@ -173,12 +131,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B71A758C4042C786385D68A8 /* Frameworks */ = {
+		E50AC2A140B4179461B017E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0AFD779D883C93925D0179A1 /* libPods-CHTGithub.a */,
+				BF9DC5866A6BFF481418E81D /* Pods-CHTGithub.debug.xcconfig */,
+				C3957CD5E31399B45C4914EE /* Pods-CHTGithub.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,12 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEE31EAF1D38D156008F4CDE /* Build configuration list for PBXNativeTarget "CHTGithub" */;
 			buildPhases = (
-				A57103A32D4B5F5CA4E9B97B /* Check Pods Manifest.lock */,
+				ED7579EED6303FDDB53FF694 /* [CP] Check Pods Manifest.lock */,
 				AEE31E941D38D156008F4CDE /* Sources */,
 				AEE31E951D38D156008F4CDE /* Frameworks */,
 				AEE31E961D38D156008F4CDE /* Resources */,
-				FD263E70641F087E11281146 /* Embed Pods Frameworks */,
-				0818E1E0E56CC44D34235169 /* Copy Pods Resources */,
+				4E43AE39FE782F666B481267 /* [CP] Embed Pods Frameworks */,
+				1C8979AFE1530D312F2AE5EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +174,7 @@
 				TargetAttributes = {
 					AEE31E971D38D156008F4CDE = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FFC2UUU5W6;
 					};
 				};
 			};
@@ -243,23 +203,22 @@
 			files = (
 				AEE31EAB1D38D156008F4CDE /* LaunchScreen.storyboard in Resources */,
 				AEE31EA81D38D156008F4CDE /* Assets.xcassets in Resources */,
-				AE1189011D6411D10019A488 /* cht_btn_no@3x.png in Resources */,
-				AE1188FF1D640FAC0019A488 /* cht_btn_sl@3x.png in Resources */,
 				AEE31EA61D38D156008F4CDE /* Main.storyboard in Resources */,
+				AE77076D1E0BA9D10001E9D7 /* lena.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0818E1E0E56CC44D34235169 /* Copy Pods Resources */ = {
+		1C8979AFE1530D312F2AE5EF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,34 +226,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A57103A32D4B5F5CA4E9B97B /* Check Pods Manifest.lock */ = {
+		4E43AE39FE782F666B481267 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD263E70641F087E11281146 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHTGithub/Pods-CHTGithub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7579EED6303FDDB53FF694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -308,13 +267,9 @@
 				AEE28D061D3CB89F00AB8895 /* CHTDotView.m in Sources */,
 				AEE28D091D3CB9C400AB8895 /* CHTAnimatedDotView.m in Sources */,
 				AEE31EA31D38D156008F4CDE /* ViewController.m in Sources */,
-				AE1189041D6442370019A488 /* CHTFilterContentView.m in Sources */,
 				AEE28D0C1D3CBEB400AB8895 /* CHTPageControl.m in Sources */,
 				AEE31EA01D38D156008F4CDE /* AppDelegate.m in Sources */,
-				AE1188FD1D640A180019A488 /* CHTLayoutButton.m in Sources */,
-				AE7D2C921D65B44300609FDF /* CHTFilterItem.m in Sources */,
 				AEE31E9D1D38D156008F4CDE /* main.m in Sources */,
-				AE1188FA1D6405D40019A488 /* CHTFilterItemBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +379,13 @@
 		};
 		AEE31EB01D38D156008F4CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF216F37793462A9A4A12F4 /* Pods-CHTGithub.debug.xcconfig */;
+			baseConfigurationReference = BF9DC5866A6BFF481418E81D /* Pods-CHTGithub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFC2UUU5W6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CHTGithub/PrefixHeader.pch";
 				INFOPLIST_FILE = CHTGithub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTGithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,11 +394,13 @@
 		};
 		AEE31EB11D38D156008F4CDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F3F3C26F83B2EB09C42E75 /* Pods-CHTGithub.release.xcconfig */;
+			baseConfigurationReference = C3957CD5E31399B45C4914EE /* Pods-CHTGithub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFC2UUU5W6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CHTGithub/PrefixHeader.pch";
 				INFOPLIST_FILE = CHTGithub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CHT.CHTGithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";

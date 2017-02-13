@@ -16,7 +16,7 @@
  *  引用全局头文件
  */
 
-#import "QFHKDefines.h"
+//#import "QFHKDefines.h"
 #import "AFNetworking.h"
 
 //#endif
